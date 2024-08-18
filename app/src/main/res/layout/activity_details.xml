@@ -37,7 +37,7 @@
             android:id="@+id/movieIDTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/movieid"
+            android:text="@string/musicians_id1"
             android:textStyle="bold" />
 
         <EditText
@@ -53,7 +53,7 @@
             android:id="@+id/titleTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/title"
+            android:text="@string/fullname"
             android:textStyle="bold" />
 
         <EditText
@@ -69,7 +69,7 @@
             android:id="@+id/studioTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/studio"
+            android:text="genres"
             android:textStyle="bold" />
 
         <EditText
@@ -85,7 +85,7 @@
             android:id="@+id/genreTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/genres"
+            android:text="instruments"
             android:textStyle="bold" />
 
         <EditText
@@ -101,7 +101,7 @@
             android:id="@+id/directorsTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/directors"
+            android:text="labels"
             android:textStyle="bold" />
 
         <EditText
@@ -117,7 +117,7 @@
             android:id="@+id/writersTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/writers"
+            android:text="born"
             android:textStyle="bold" />
 
         <EditText
@@ -133,7 +133,7 @@
             android:id="@+id/actorsTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/actors"
+            android:text="yearsActive"
             android:textStyle="bold" />
 
         <EditText
@@ -162,7 +162,7 @@
                     android:id="@+id/lengthTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/length"
+                    android:text="spouses"
                     android:textStyle="bold" />
 
                 <EditText
@@ -186,7 +186,7 @@
                     android:id="@+id/yearTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/year"
+                    android:text="children"
                     android:textStyle="bold" />
 
                 <EditText
@@ -204,7 +204,7 @@
             android:id="@+id/descriptionTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/description"
+            android:text="relatives"
             android:textStyle="bold" />
 
         <EditText
@@ -234,7 +234,7 @@
                     android:id="@+id/mpaRatingTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/mpa_rating"
+                    android:text="notableWorks"
                     android:textStyle="bold" />
 
                 <EditText
@@ -258,7 +258,7 @@
                     android:id="@+id/criticsRatingTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/critics_rating"
+                    android:text="imageURL"
                     android:textStyle="bold" />
 
                 <EditText

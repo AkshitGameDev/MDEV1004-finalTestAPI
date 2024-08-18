@@ -18,4 +18,8 @@
     <string name="are_you_sure">Are you sure?</string>
     <string name="ok">Ok</string>
     <string name="cancel">Cancel</string>
+    <string name="favourate_musicians">Favourate Musicians</string>
+    <string name="musicians_id">Musicians ID</string>
+    <string name="musicians_id1">Musicians ID</string>
+    <string name="fullname">fullName</string>
 </resources>
