@@ -32,7 +32,7 @@ RecyclerView.Adapter<FirstAdapter.ViewHolder>()
             onMovieClick?.invoke(dataSet[position])
         }
 
-        val rating = movie.criticsRating
+        val rating = Integer.parseInt(movie.movieID)
 
         if(rating != null)
         {
@@ -45,19 +45,19 @@ RecyclerView.Adapter<FirstAdapter.ViewHolder>()
                     viewHolder.binding.rating.setTextColor(Color.BLACK)
                 }
                 rating > 5 -> {
-                    viewHolder.binding.rating.setBackgroundResource(R.drawable.background_yellow)
+                    viewHolder.binding.rating.setBackgroundResource(R.drawable.background_green)
                     viewHolder.binding.rating.setTextColor(Color.BLACK)
                 }
                 else -> {
-                    viewHolder.binding.rating.setBackgroundResource(R.drawable.background_red)
-                    viewHolder.binding.rating.setTextColor(Color.WHITE)
+                    viewHolder.binding.rating.setBackgroundResource(R.drawable.background_green)
+                    viewHolder.binding.rating.setTextColor(Color.BLACK)
                 }
             }
         }
         else
         {
             viewHolder.binding.rating.text = "N/A"
-            viewHolder.binding.rating.setBackgroundResource(R.drawable.background_gray)
+            viewHolder.binding.rating.setBackgroundResource(R.drawable.background_green)
             viewHolder.binding.rating.setTextColor(Color.WHITE)
         }
     }
